@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <link rel="icon" href="/argus-logo-recall.svg" type="image/svg" />
+                    <link rel='shortcut icon' href='/favicon.png' type='image/png' />
                     <link rel="apple-touch-icon" href="/logo192.png" type="image/png" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
                         rel="stylesheet"
                     />
                     <link rel="manifest" href="/manifest.json" />
+
                 </Head>
                 <body>
                     <Main />
