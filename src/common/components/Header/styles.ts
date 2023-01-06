@@ -53,4 +53,7 @@ export const HeaderContent = styled.div`
             }
         }
     }
+    button {
+        margin-left: auto;
+    }
 `;

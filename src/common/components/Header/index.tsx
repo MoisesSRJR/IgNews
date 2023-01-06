@@ -1,3 +1,4 @@
+import { SignInButton } from '../SignInButton';
 import { HeaderContainer, HeaderContent } from './styles';
 
 export function Header() {
@@ -9,6 +10,8 @@ export function Header() {
                     <a className='active'>Home</a>
                     <a>Posts</a>
                 </nav>
+                
+                <SignInButton />
             </HeaderContent>
         </HeaderContainer>
     );
