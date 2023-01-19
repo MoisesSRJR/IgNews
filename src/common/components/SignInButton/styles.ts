@@ -14,6 +14,8 @@ export const Button = styled.button`
     color: #fff;
     font-weight: bold;
 
+    cursor: pointer;
+
     svg {
         width: 20px;
         height: 20px;
