@@ -49,7 +49,7 @@ export const HeaderContent = styled.div`
                 position: absolute;
                 bottom: 1px;
                 left: 0;
-                background-color: yellow;
+                background-color: #eba417;
             }
         }
     }

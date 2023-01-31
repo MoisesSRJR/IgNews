@@ -1,6 +1,10 @@
 import { Button } from './styles';
 
-export function SubscribeNow() {  
+interface SubscribeButtonProps {
+    priceId: string;
+}
+
+export function SubscribeNow({priceId} : SubscribeButtonProps) {  
     return  (
         <Button type="button">
             Subscribe now
